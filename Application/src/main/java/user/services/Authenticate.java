@@ -34,7 +34,7 @@ public class Authenticate implements Authenticator {
     public boolean addNewUser(User user) {
         long check = this.userRepository.addUser(user);
 
-        if (check == -1) {
+        if (check == 0) {
             return false;
         }
         return true;
