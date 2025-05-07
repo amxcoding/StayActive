@@ -3,7 +3,7 @@ The goal of the project is to design a modular and extensible application using 
 
 This application's purposes is to provide notifications in a certain time interval on which the user can act. If the user accepts the notification an exercises is shown that the user can do. The goal is to keep the user active once every hour.
 
-## 4 - Tier architecture 
+## Onion architecture
 Based on [CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture). The dependencies 
 between the layers are as following:
 
