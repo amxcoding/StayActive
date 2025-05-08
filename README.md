@@ -16,11 +16,10 @@ layer contains the interfaces and logic what are used throughout the whole appli
 The domain layer has no dependency on the other layers. It contains all entities, enums, exceptions, interfaces, 
 types and logic specific to the domain layer.
 - ### [ConsolUI layer](ConsoleUI)
-For the console UI I have used the MVC design pattern. A class diagram was provided by HBO ICT for inspiration.
-However, I did give my own implementation to it. The console UI  depends on the infrastructure layer through dependency 
+For the console UI I have used the MVC design pattern. The console UI  depends on the infrastructure layer through dependency 
 injection.
 - ### [Infrastructure layer](Infrastructure)
-I have used the provided class diagram for the template pattern provided by HBO ICT to make the database layer extensible. To access the database layer
+I have used a template pattern for the database command and query. To access the database layer
 I make use of DAOs and Repositories.
 
 
